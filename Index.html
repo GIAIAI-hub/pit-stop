@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pit Stop | Car Diagnostics & Repairs in UAE</title>
+
+  <!-- Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"  rel="stylesheet">
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
+
+  <!-- Custom Styles -->
+  <style>
+    /* Hero Section - Solid Black Background */
+    .hero-section {
+      background-color: #000; /* Solid black */
+      height: 100vh;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    /* Button Styling */
+    .hero-button {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #FF3B30; /* Red button */
+      color: white;
+      padding: 0.75rem 1.5rem;
+      font-size: 1.2rem;
+      border-radius: 0;
+      transition: background-color 0.3s ease;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .hero-button:hover {
+      background-color: #E74C3C;
+    }
+
+    /* Header Styling */
+    header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 1.5rem;
+      transition: color 0.3s ease;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover {
+      color: #FF3B30;
+    }
+
+    /* Logo */
+    img.logo {
+      height: 3rem; /* Bigger logo */
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #000;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+<!-- Header -->
+<header>
+  <div class="container mx-auto flex items-center justify-between w-full">
+    <!-- Left Side: Navigation Links -->
+    <nav class="flex items-center gap-6">
+      <a href="#" class="hover:text-red-500">Home</a>
+      <a href="booking.html" class="hover:text-red-500">Book Now</a>
+      <a href="Tracking.html" class="hover:text-red-500">Repair Tracking</a>
+      <a href="dashboard.html" class="hover:text-red-500">Dashboard</a>
+      <a href="login.html" class="hover:text-red-500">Login</a>
+    </nav>
+
+    <!-- Right Side: Logo -->
+    <img src="assets/logo.png" alt="Pit Stop Logo" class="logo h-10 md:h-12">
+
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero-section bg-black py-16">
+  <div class="hero-content container mx-auto px-6">
+    <h1 class="text-5xl md:text-6xl font-bold mb-4">YOUR CAR’S BEST FRIEND IN THE UAE</h1>
+    <p class="text-xl mb-6 max-w-2xl mx-auto">
+      Book diagnostics, repairs, and track your car's journey from diagnosis to delivery.
+    </p>
+    <a href="booking.html" class="hero-button">
+      Book a Pit Stop
+    </a>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-12 bg-white">
+  <div class="container mx-auto px-6 grid md:grid-cols-3 gap-8 text-center">
+    <div class="p-6 border rounded shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">Fast Diagnosis</h3>
+      <p>Expert technicians ready to inspect your vehicle quickly and accurately.</p>
+    </div>
+    <div class="p-6 border rounded shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">Real-Time Tracking</h3>
+      <p>Know exactly where your car is — from inspection to delivery.</p>
+    </div>
+    <div class="p-6 border rounded shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">Multiple Vehicles</h3>
+      <p>Manage all your cars in one place with easy access to service history.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-white p-6 mt-12">
+  <div class="container mx-auto text-center">
+    <p>&copy; 2025 Pit Stop. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

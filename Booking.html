@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book a Pit Stop | Pit Stop</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"  rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+<nav class="bg-black text-white p-4 flex justify-between items-center">
+  <a href="index.html" class="flex items-center">
+    <img src="assets/logo.png" alt="Logo" class="h-10">
+  </a>
+  <span class="font-bold">Booking</span>
+</nav>
+
+<div class="container mx-auto px-6 py-8">
+  <h1 class="text-2xl font-bold mb-6">Book Your Pit Stop</h1>
+
+  <form class="bg-white p-6 rounded shadow space-y-4">
+    <div>
+      <label class="block mb-2">Select Location</label>
+      <select class="w-full border p-3 rounded">
+        <option>Dubai - Al Quoz</option>
+        <option>Abu Dhabi - Khalifa City</option>
+        <option>Sharjah - Industrial Area</option>
+      </select>
+    </div>
+    <div>
+      <label class="block mb-2">Date</label>
+      <input type="date" class="w-full border p-3 rounded" />
+    </div>
+    <div>
+      <label class="block mb-2">Time</label>
+      <input type="time" class="w-full border p-3 rounded" />
+    </div>
+    <div>
+      <label class="block mb-2">Vehicle</label>
+      <select class="w-full border p-3 rounded">
+        <option>Toyota Camry 2020</option>
+        <option>Honda Civic 2018</option>
+      </select>
+    </div>
+    <div>
+      <label class="block mb-2">Describe Issue</label>
+      <textarea rows="4" class="w-full border p-3 rounded" placeholder="e.g. Engine noise, brake issues..."></textarea>
+    </div>
+    <button type="submit" class="bg-red-900 text-white py-3 px-6 rounded hover:bg-black transition duration-300">Confirm Booking</button>
+  </form>
+</div>
+
+</body>
+</html>

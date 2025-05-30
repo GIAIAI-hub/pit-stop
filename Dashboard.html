@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard | Pit Stop</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"  rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+<!-- Navbar -->
+<nav class="bg-black text-white p-4 flex justify-between items-center">
+  <a href="index.html" class="flex items-center">
+    <img src="assets/logo.png" alt="Logo" class="h-10">
+  </a>
+  <span>Welcome, Ahmed!</span>
+</nav>
+
+<!-- Main Content -->
+<div class="container mx-auto px-6 py-8">
+  <h1 class="text-2xl font-bold mb-6">Your Dashboard</h1>
+
+  <!-- Vehicle Cards -->
+  <div class="grid md:grid-cols-2 gap-6 mb-8">
+    <div class="bg-white p-6 rounded shadow">
+      <h3 class="font-semibold text-lg">Toyota Camry 2020</h3>
+      <p>VIN: ABC123456789</p>
+      <button class="mt-2 text-red-600 underline hover:text-black transition duration-300">View Details</button>
+    </div>
+    <div class="bg-white p-6 rounded shadow">
+      <h3 class="font-semibold text-lg">Honda Civic 2018</h3>
+      <p>VIN: XYZ987654321</p>
+      <button class="mt-2 text-red-600 underline hover:text-black transition duration-300">View Details</button>
+    </div>
+  </div>
+
+  <!-- Recent Jobs -->
+  <div class="bg-white p-6 rounded shadow">
+    <h3 class="font-semibold text-lg mb-4">Recent Jobs</h3>
+    <ul class="space-y-2">
+      <li>Brake Inspection - Completed</li>
+      <li>Battery Replacement - In Progress</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
